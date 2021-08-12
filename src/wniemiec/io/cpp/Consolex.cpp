@@ -5,7 +5,7 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-#include "../../../../include/wniemiec/io/java/Consolex.hpp"
+#include "../../../../include/wniemiec/io/cpp/Consolex.hpp"
 
 using namespace wniemiec::io::cpp;
 

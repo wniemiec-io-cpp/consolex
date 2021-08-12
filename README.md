@@ -50,29 +50,28 @@ Consolex::write_debug("Debug message");
 [...]
 ```
 
-**Note:** You can use cmake if you wish. To do this, use the [`CMakeLists.txt`](https://github.com/wniemiec-io-cpp/consolex/blob/master/CMakeLists.txt) file.
+**Note:** You can use cmake if you wish. To do this, use the [`CMakestd::lists.txt`](https://github.com/wniemiec-io-cpp/consolex/blob/master/CMakestd::lists.txt) file.
 
 ## 📖 Documentation
 |        Property        |Parameter type|Return type|Description|Default parameter value|
 |----------------|-------------------------------|-----|------------------------|--------|
-|readLine |`void`|`String`|Reads a line from console| - |
-|writeLine |`line: Object`|`void`|Write a line on the console, putting a line break at the end| - |
-|writeLines |`lines: (Object... | List<String>)`|`void`|Write lines on the console, putting a line break at the end of each line| - |
-|write |`content: Object`|`void`|Writes a content on the console without putting a line break at the end of each line| - |
-|writeFileLines | `file: Path`|`void`|Write lines from a text file to the console| - |
-|writeFileLinesWithEnumeration | `file: Path`|`void`|Write lines from a text file to the console. Besides, it shows the line number of each line on the left| - |
-|writeDiv | `symbol: String`|`void`|Writes a division line| `"-"` |
-|writeHeader | `title: Object, symbol: String`|`void`|Writes a title between two dividers| - , `"-"`|
-|writeError | `message: Object`|`void`|Displays an error message.| - |
-|writeWarning | `message: Object`|`void`|Displays a warning message.| - |
-|writeInfo | `message: Object`|`void`|Displays an info message. - |
-|writeDebug | `message: Object`|`void`|Displays a debug message.| - |
-|clearHistory | `void`|`void`|Clears the history of messages sent to the console| - |
-|dumpTo | `file: Path`|`void`|Exports the history of messages sent to the console to a file| - |
-|getHistory | `void`|`List<String>`|Gets messages sent to the console| - |
-|setMarginLeft | `margin: int`|`void`|Defines the distance between messages and the log level tag| - |
-|setLoggerLevel | `level: LogLevel`|`void`|Sets log level. The level defines what type of message will be displayed| - |
-|getLoggerLevel | `void`|`LogLevel`|Gets current log level. The level defines what type of message will be displayed| - |
+|read_line |`void`|`std::string`|Reads a line from console| - |
+|write_line |`line: std::string`|`void`|Write a line on the console, putting a line break at the end| - |
+|write_lines |`lines: std::list<std::string>`|`void`|Write lines on the console, putting a line break at the end of each line| - |
+|write |`content: std::string`|`void`|Writes a content on the console without putting a line break at the end of each line| - |
+|write_file_lines | `filepath: std::string`|`void`|Write lines from a text file to the console| - |
+|write_file_lines_with_enumeration | `filepath: std::string`|`void`|Write lines from a text file to the console. Besides, it shows the line number of each line on the left| - |
+|write_div | `symbol: std::string`|`void`|Writes a division line| `"-"` |
+|write_header | `title: std::string, symbol: std::string`|`void`|Writes a title between two dividers| - , `"-"`|
+|write_error | `message: std::string`|`void`|Displays an error message.| - |
+|write_warning | `message: std::string`|`void`|Displays a warning message.| - |
+|write_info | `message: std::string`|`void`|Displays an info message. - |
+|write_debug | `message: std::string`|`void`|Displays a debug message.| - |
+|clear_history | `void`|`void`|Clears the history of messages sent to the console| - |
+|dump_to | `directory_path: std::string`|`void`|Exports the history of messages sent to the console to a file| - |
+|get_history | `void`|`std::vector<std::string>`|Gets messages sent to the console| - |
+|set_margin_left | `margin: int`|`void`|Defines the distance between messages and the log level tag| - |
+|set_logger_level | `level: LogLevel*`|`void`|Sets log level. The level defines what type of message will be displayed| - |
 
 
 ## 🚩 Changelog

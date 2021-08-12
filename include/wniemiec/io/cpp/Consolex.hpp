@@ -168,7 +168,7 @@ namespace wniemiec { namespace io { namespace cpp {
          *
          * @param       directoryPath Output directory
          */
-        static void dump_to(std::string directoryPath);
+        static void dump_to(std::string directory_path);
 
 
     //-------------------------------------------------------------------------
