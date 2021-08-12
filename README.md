@@ -7,7 +7,7 @@
 	<a href="https://github.com/wniemiec-io-cpp/consolex/actions/workflows/macos.yml"><img src="https://github.com/wniemiec-io-cpp/consolex/actions/workflows/macos.yml/badge.svg" alt=""></a>
 	<a href="https://github.com/wniemiec-io-cpp/consolex/actions/workflows/ubuntu.yml"><img src="https://github.com/wniemiec-io-cpp/consolex/actions/workflows/ubuntu.yml/badge.svg" alt=""></a>
 	<a href="https://codecov.io/gh/wniemiec-io-cpp/consolex"><img src="https://codecov.io/gh/wniemiec-io-cpp/consolex/branch/master/graph/badge.svg?token=R2SFS4SP86" alt="Coverage status"></a>
-	<a href="http://java.oracle.com"><img src="https://img.shields.io/badge/java-11+-D0008F.svg" alt="Java compatibility"></a>
+	<a href="https://docs.microsoft.com/en-us/cpp/"><img src="https://img.shields.io/badge/C++-17+-D0008F.svg" alt="Cpp compatibility"></a>
 	<a href="https://mvnrepository.com/artifact/io.github.wniemiec-io-cpp/consolex"><img src="https://img.shields.io/maven-central/v/io.github.wniemiec-io-cpp/consolex" alt="Maven Central release"></a>
 	<a href="https://github.com/wniemiec-io-cpp/consolex/blob/master/LICENSE"><img src="https://img.shields.io/github/license/wniemiec-io-cpp/consolex" alt="License"></a>
 </p>

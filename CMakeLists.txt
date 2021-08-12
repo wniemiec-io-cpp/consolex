@@ -32,7 +32,7 @@ set(consolex_sources
         src/wniemiec/io/cpp/LogLevel.cpp
         src/wniemiec/io/cpp/LogMessage.cpp
         src/wniemiec/io/cpp/OutputConsolex.cpp
-        src/wniemiec/util/data/StringUtils.cpp
+        src/wniemiec/data/cpp/StringUtils.cpp
         test/wniemiec/io/cpp/ConsolexTest.cpp
 )
 

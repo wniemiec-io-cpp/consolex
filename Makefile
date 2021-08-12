@@ -13,7 +13,7 @@ SOURCE	=	src/wniemiec/io/cpp/Consolex.cpp\
 		src/wniemiec/io/cpp/LogLevel.cpp\
 		src/wniemiec/io/cpp/LogMessage.cpp\
 		src/wniemiec/io/cpp/OutputConsolex.cpp\
-		src/wniemiec/util/data/StringUtils.cpp
+		src/wniemiec/data/cpp/StringUtils.cpp
 CC	 = g++ 
 FLAGS	 = -c
 LFLAGS	 = 
@@ -42,8 +42,8 @@ LogMessage.o: src/wniemiec/io/cpp/LogMessage.cpp
 OutputConsolex.o: src/wniemiec/io/cpp/OutputConsolex.cpp
 	$(CC) $(FLAGS) src/wniemiec/io/cpp/OutputConsolex.cpp -std=c++17
 
-StringUtils.o: src/wniemiec/util/data/StringUtils.cpp
-	$(CC) $(FLAGS) src/wniemiec/util/data/StringUtils.cpp -std=c++17
+StringUtils.o: src/wniemiec/data/cpp/StringUtils.cpp
+	$(CC) $(FLAGS) src/wniemiec/data/cpp/StringUtils.cpp -std=c++17
 
 clean:
 	rm -f $(OBJS) $(OUT)
