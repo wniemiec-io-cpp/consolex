@@ -3,7 +3,7 @@
 #include <gtest/gtest.h>
 #include "../../../../include/wniemiec/io/cpp/Consolex.hpp"
 
-namespace wniemiec { namespace io { namespace consolex {
+namespace wniemiec { namespace io { namespace cpp {
 
     class ConsolexTest : public testing::Test
     {
