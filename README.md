@@ -50,7 +50,7 @@ Consolex::write_debug("Debug message");
 [...]
 ```
 
-**Note:** You can use cmake if you wish. To do this, use the [`CMakestd::lists.txt`](https://github.com/wniemiec-io-cpp/consolex/blob/master/CMakestd::lists.txt) file.
+**Note:** You can use cmake if you wish. To do this, use the [`CMakeLists.txt`](https://github.com/wniemiec-io-cpp/consolex/blob/master/CMakeLists.txt) file.
 
 ## 📖 Documentation
 |        Property        |Parameter type|Return type|Description|Default parameter value|
